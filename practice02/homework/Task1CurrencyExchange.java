@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package practice02.homework;
+=======
+package semester1.practice02.homework;
+>>>>>>> 36d78333397101acda1673f90e3913f211bcbd57
 
 import java.util.Locale;
 

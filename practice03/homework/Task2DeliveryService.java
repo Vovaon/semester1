@@ -16,7 +16,7 @@ public class Task2DeliveryService {
 
         System.out.print("Оберіть пункт призначення (1 - Відділення, 2 - Поштомат, 3 - Кур'єр): ");
         int deliveryType = scanner.nextInt();
-        scanner.nextLine(); // очищення буфера після числових методів
+        scanner.nextLine();
 
         System.out.print("Чи є у вас карта Premium? (так/ні): ");
         String premiumAnswer = scanner.nextLine().trim();

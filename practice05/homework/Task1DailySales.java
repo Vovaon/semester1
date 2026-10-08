@@ -36,7 +36,6 @@ public class Task1DailySales {
         }
         double average = total / sales.length;
  
-        // 3. Звіт
         System.out.println();
         System.out.println("---------------- ПІДСУМКИ ----------------");
         System.out.printf(Locale.US, "%-28s%.2f грн%n", "Загальний тижневий виторг:", total);

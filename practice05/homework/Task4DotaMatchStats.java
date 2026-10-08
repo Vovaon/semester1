@@ -35,7 +35,7 @@ public class Task4DotaMatchStats {
  
         for (int i = 0; i < players; i++) {
             String kda = kills[i] + " / " + deaths[i] + " / " + assists[i];
-            String netWorthText = String.format(Locale.US, "%,d", netWorth[i]); // 14500 -> 14,500
+            String netWorthText = String.format(Locale.US, "%,d", netWorth[i]);
             double killParticipation = (double) (kills[i] + assists[i]) / totalKills * 100;
  
             System.out.printf(Locale.US, "%-17s| %-10s | %-9s | %-9.2f | %.2f%%%n",

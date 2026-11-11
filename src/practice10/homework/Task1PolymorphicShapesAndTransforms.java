@@ -3,7 +3,7 @@ package practice10.homework;
 import java.util.Locale;
 
 interface Scalable2D {
-    double MIN_SCALE_FACTOR = 0.1; // неявно public static final
+    double MIN_SCALE_FACTOR = 0.1;
 
     void scale(double factor);
 }

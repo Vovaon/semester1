@@ -18,7 +18,7 @@ final class ImmutableMatrix2D {
             if (source[i] == null || source[i].length != cols) {
                 throw new IllegalArgumentException("Матриця має бути прямокутною");
             }
-            System.arraycopy(source[i], 0, data[i], 0, cols); // глибока копія
+            System.arraycopy(source[i], 0, data[i], 0, cols);
         }
     }
 
@@ -270,7 +270,7 @@ public class Task4PolymorphicMatrixSpectralEngine {
                 if (j > 0) {
                     sb.append("  ");
                 }
-                sb.append(fmt("%8.4f", m.get(i, j) + 0.0)); // +0.0 прибирає "-0.0000"
+                sb.append(fmt("%8.4f", m.get(i, j) + 0.0));
             }
             System.out.println(sb.append(" ]"));
         }

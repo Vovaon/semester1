@@ -2,7 +2,7 @@ package practice10.homework;
 
 import java.util.Locale;
 interface Evaluable1D {
-    double EPSILON = 1e-7; // неявно public static final
+    double EPSILON = 1e-7;
 
     double evaluate(double x);
 }

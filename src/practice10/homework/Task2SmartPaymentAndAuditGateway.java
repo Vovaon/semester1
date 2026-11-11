@@ -3,7 +3,7 @@ package practice10.homework;
 import java.util.Locale;
 
 interface CashbackCapable {
-    double MAX_CASHBACK_UAH = 500.0; // неявно public static final
+    double MAX_CASHBACK_UAH = 500.0;
 
     double getCashbackRate();
 
